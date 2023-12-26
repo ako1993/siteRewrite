@@ -1,0 +1,17 @@
+body {
+    background-color: black;
+}
+
+.herobanner {
+    width : 100%;
+    height: auto;
+}
+
+nav {
+    background-color: pink;
+    width: 100%;
+}
+
+nav a {
+    text-decoration: none;
+}
