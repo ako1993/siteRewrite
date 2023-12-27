@@ -1,5 +1,7 @@
-body {
-    background-color: black;
+header{
+    position: sticky;
+    top:0;
+   
 }
 
 .herobanner {
@@ -8,10 +10,23 @@ body {
 }
 
 nav {
-    background-color: pink;
+    background-color: blue;
     width: 100%;
+    text-align: center;
 }
 
 nav a {
     text-decoration: none;
+    color: white;
+    padding: 10%;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    -webkit-text-stroke: 0.5px black;
+}
+
+body {
+    background-color: black;
+}
+
+p {
+    color: white;
 }
