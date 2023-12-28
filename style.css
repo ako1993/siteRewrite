@@ -34,6 +34,13 @@ body {
     background-color: black;
 }
 
+.aboutme {
+    width: 55%;
+    height: auto;
+    float: left;
+    shape-outside: circle();
+}
+
 p {
     color: white;
 }
