@@ -32,17 +32,42 @@ nav a {
 
 body {
     background-color: black;
+    position: relative;
 }
 
 .aboutme {
     width: 55%;
     height: auto;
     float: left;
-    shape-outside: circle();
+    shape-outside: circle(60%);
 }
 
 p {
     color: white;
+    background-color: rgb(114, 35, 188);
+}
+
+.upcomingshows{
+    width: 100%;
+    background-color: pink;
+    height:auto;
+}
+
+.newshow{
+    display: block;
+    position: relative;
+    z-index: -2;
+}
+
+.newshow p {
+    margin-top: 0%;
+    text-align: center;
+}
+
+.newshow img {
+    margin-top: 0%;
+    width: 100%;
+    height: auto;
 }
 
 /*beginning of footer rules*/
@@ -57,7 +82,7 @@ footer {
 footer img {
     height: 30px;
     width: auto;
-    padding-left: 3%;
-    padding-right: 3%;
+    padding-left: 7%;
+    padding-right: 7%;
 }
 /*end of footer rules*/
