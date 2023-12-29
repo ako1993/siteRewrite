@@ -1,15 +1,14 @@
 /*Beginning of Header rules*/
-
 header{
     position: sticky;
     top:0;
-   
 }
 
 .herobanner {
     width : 100%;
     height: auto;
     z-index: -1;
+    margin-bottom: 0;
 }
 
 nav {
@@ -33,6 +32,8 @@ nav a {
 body {
     background-color: black;
     position: relative;
+    display: block;
+    margin: 0,0,0,0;
 }
 
 .aboutme {
@@ -44,30 +45,49 @@ body {
 
 p {
     color: white;
-    background-color: rgb(114, 35, 188);
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.aboutmeinfo {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    /*background: rgb(255,161,248);
+    background: linear-gradient(0deg, rgba(255,161,248,1) 0%, rgba(187,14,229,1) 100%);*/
 }
 
 .upcomingshows{
     width: 100%;
-    background-color: pink;
+    /*background-color: pink;*/
     height:auto;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    /*background: rgb(255,161,248);
+    background: linear-gradient(0deg, rgba(187,14,229,1) 0%, rgba(255,161,248,1) 100%);*/
 }
 
 .newshow{
     display: block;
     position: relative;
     z-index: -2;
+    margin-top: 0%;
+    margin-bottom: 0%;
 }
 
 .newshow p {
     margin-top: 0%;
     text-align: center;
+    margin-bottom: 0%;
+    background: rgb(255,161,248);
+    background: linear-gradient(0deg, rgba(255,161,248,1) 0%, rgba(187,14,229,1) 100%);
 }
 
 .newshow img {
     margin-top: 0%;
     width: 100%;
     height: auto;
+    margin-bottom: 0%;
 }
 
 /*beginning of footer rules*/
