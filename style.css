@@ -37,10 +37,10 @@ body {
 }
 
 .aboutme {
-    width: 55%;
+    width: 65%;
     height: auto;
     float: left;
-    shape-outside: circle(60%);
+    shape-outside: circle();
 }
 
 p {
