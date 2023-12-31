@@ -101,10 +101,13 @@ p {
 }
 
 .bestclips video{
-    width: 100%;
+    text-align: center;
+    width: 75%;
     Height: auto;
     border: 1px solid white;
     z-index: -2;
+    margin-left: 0%;
+    margin-right: 0%;
 }
 
 /*beginning of footer rules*/
