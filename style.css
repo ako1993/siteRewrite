@@ -90,6 +90,23 @@ p {
     margin-bottom: 0%;
 }
 
+.featuredclips{
+    width: 100%;
+    height: auto;
+}
+
+.bestclips p{
+    text-align: center;
+    background-color: blue;
+}
+
+.bestclips video{
+    width: 100%;
+    Height: auto;
+    border: 1px solid white;
+    z-index: -2;
+}
+
 /*beginning of footer rules*/
 footer {
     position:fixed;
