@@ -95,19 +95,53 @@ p {
     height: auto;
 }
 
+video{
+    position: relative;
+    z-index: -3;
+}
+
+video::-webkit-media-controls-panel {
+    position:relative;
+    z-index: -3;
+}
+
+.bestclips{
+    position: relative;
+}
+
 .bestclips p{
+    padding-top: 6%;
+    padding-bottom: 6%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    display: block;
     text-align: center;
-    background-color: blue;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgb(255,161,248);
+    background: linear-gradient(0deg, rgba(255,161,248,1) 0%, rgba(187,14,229,1) 100%);
+    width: 75%;
+    z-index: -3;
+    position: relative;
+}
+
+.backblock{
+    top: 0%;
+    position:absolute;
+    /*background-color: blue;*/
+    background: rgb(232,230,255);
+    background: radial-gradient(circle, rgba(232,230,255,1) 0%, rgba(255,242,88,1) 50%, rgba(0,212,255,1) 100%);
+    height: 100%;
+    width: 100%;
+    z-index: -4;
 }
 
 .bestclips video{
-    text-align: center;
+    display: block;
+    margin:0 auto;
     width: 75%;
     Height: auto;
     border: 1px solid white;
-    z-index: -2;
-    margin-left: 0%;
-    margin-right: 0%;
 }
 
 /*beginning of footer rules*/
