@@ -128,6 +128,7 @@ video{
     /*background-color: blue;*/
     background: rgb(232,230,255);
     background: radial-gradient(circle, rgba(232,230,255,1) 0%, rgba(255,242,88,1) 50%, rgba(0,212,255,1) 100%);
+    box-shadow: 0 0 5px 10px rgb(232,230,255);
     height: 100%;
     width: 100%;
     z-index: -4;
@@ -148,6 +149,32 @@ video{
     border: 1px solid white;
 }
 
+.sampleclip {
+    position: relative
+}
+
+.sampleclip p { 
+    text-align: center;
+    background: rgb(255,161,248);
+    background: linear-gradient(0deg, rgba(255,161,248,1) 0%, rgba(187,14,229,1) 100%);
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+
+.sampleclipheader {
+    width: 100%;
+    height: auto;
+    margin-top: 10%;
+}
+
+.samplevid{
+    width: 100%;
+    height: auto;
+    padding-bottom: 10%;
+}
+
 /*beginning of footer rules*/
 footer {
     position:fixed;
@@ -155,6 +182,8 @@ footer {
     text-align: center;
      width: 100%;
      background-color:rgb(50, 251, 227);
+     overflow-x: hidden;
+    
 }
 
 footer img {
