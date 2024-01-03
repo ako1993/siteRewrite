@@ -177,15 +177,69 @@ video{
 }
 
 /*Rules for the book me page*/
+.bookmeheader{
+    width: 100%;
+    height: auto;
+}
+
+.forminstructions{
+    text-align: center;
+    -webkit-text-stroke: black;
+    -webkit-text-stroke-width: 0.8px;
+}
+
 .requestform{
     position: relative;
+    display: block;
 }
 
 form{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    height: 100%;
     z-index: 1;
+}
+
+input{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4%;
+    border-radius: 10px;
+}
+
+label{
+    color: white;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    -webkit-text-stroke: black;
+    -webkit-text-stroke-width: 1px;
+    font-size: larger;
+
+}
+
+textarea{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    width: 75%;
+    height: 50%;
+    margin-bottom: 0;
+}
+
+button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:antiquewhite;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 10% ;
 }
 
 .formpic{
@@ -193,7 +247,9 @@ form{
     width: 100%;
     height: auto;
     z-index: -1;
+    opacity: 0.4;
 }
+/*end of book me page rules*/
 
 /*beginning of footer rules*/
 footer {

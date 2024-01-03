@@ -18,18 +18,24 @@
   </nav>
   </header>  
   <body>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <img class = "bookmeheader" src = "images/bookmetoday.png" alt = "book me header">
+    <p class = "forminstructions">You can use the form below to book me for your event or private party.
+      in the "show details" section be sure to include how long of a performance you would like from me,
+      when you would like the show to begin, and any content restrictions you may have for your event.
+      You will recieve a response no later than 48 hours. You can also use this form to send me any miscellaneous
+      questions you may have for me or if you're interested in any sort of collaboration. Thank you!
+    </p>
     <div class = "requestform">
         <img class = "formpic" src = "images/formpic.jpg" alt = "a background pic for the book me form">
         <form method ="post" action = "https://formspree.io/f/xaygwnle">
-            <label for="name">Name</label>
+            <label for="name">Your name</label>
           <input type = "text" name = "name" id = "name" required>
-          <label for = "email">Email</label>
+          <label for = "email">Your Email</label>
           <input type = "email" name = "email" id = "email" required>
           
-          <label for = "subject">Subject</label>
+          <label for = "subject">Show/event name</label>
           <input type = "text" name = "subject" id = "subject" required>
-          <label for = "message">Message</label>
+          <label for = "message">Show details</label>
           <textarea name = "message" id = "message" required></textarea>
           <br>
           <button>Send</button>
