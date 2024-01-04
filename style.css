@@ -182,10 +182,22 @@ video{
     height: auto;
 }
 
+.forminstructionswrapper{
+    position: relative;
+}
+
+.forminstructionspic{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    z-index: -2;
+    opacity: 0.6;
+}
+
 .forminstructions{
     text-align: center;
-    -webkit-text-stroke: black;
-    -webkit-text-stroke-width: 0.8px;
+    /*-webkit-text-stroke: black;
+    -webkit-text-stroke-width: 0.25px;*/
 }
 
 .requestform{
@@ -205,7 +217,7 @@ input{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 4%;
+    margin-bottom: 0;
     border-radius: 10px;
 }
 
@@ -215,7 +227,7 @@ label{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:fantasy;
     -webkit-text-stroke: black;
     -webkit-text-stroke-width: 1px;
     font-size: larger;
@@ -236,7 +248,7 @@ button{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    background-color:antiquewhite;
+    background-color:rgb(176, 245, 0);
     border-radius: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-bottom: 10% ;
@@ -247,7 +259,8 @@ button{
     width: 100%;
     height: auto;
     z-index: -1;
-    opacity: 0.4;
+    opacity: 0.6;
+    display: none;
 }
 /*end of book me page rules*/
 
