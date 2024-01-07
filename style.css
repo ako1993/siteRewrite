@@ -263,6 +263,22 @@ button{
     display: none;
 }
 /*end of book me page rules*/
+/*Beginning of clips page rules*/
+.yellowsquare{
+    position: relative;
+    background-color: yellow;
+    width: 90%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.orangesquare{
+    position: relative;
+}
+.bluesquare{
+    position: relative;
+}
 
 /*beginning of footer rules*/
 footer {
