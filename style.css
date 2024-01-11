@@ -36,7 +36,6 @@ body {
     position: relative;
     display: block;
     margin: 0,0,0,0;
-    overflow:hidden;
 }
 
 .aboutme {
@@ -268,7 +267,7 @@ button{
 .yellowsquare{
     position: relative;
     background-color: rgb(233, 233, 125);
-    width: 375px;
+    width: 340px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -285,6 +284,15 @@ button{
     width: 90%;
     padding-top: 10%;
 }
+
+.clipsdrawing{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+
+}
+
 .bluesquare{
     position: relative;
     display: block;
@@ -302,7 +310,7 @@ button{
 .testclip{
     position: relative;
     display:block;
-    width: 99%;
+    width: 100%;
     height: auto;
     margin-left: auto;
     margin-left: auto;
