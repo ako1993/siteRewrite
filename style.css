@@ -295,6 +295,13 @@ button{
     /*z-index: -4;*/
 }
 
+.daddrawing{
+    position: absolute;
+    top: 0;
+    right: 10%;
+    width: 35%;
+}
+
 .bluesquare{
     position: relative;
     display: block;
